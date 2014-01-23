@@ -3,7 +3,7 @@ rootFolder-issue
 
 Small maven tycho project demonstrating that rootFolder property does not work properly
 
-== Usage
+## Usage
 
 Run 
 
