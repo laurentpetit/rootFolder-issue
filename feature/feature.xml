@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="feature"
+      label="Feature"
+      version="0.0.1.qualifier"
+      provider-name="Provider"
+      plugin="plugin">
+
+   <description/>
+   <copyright/>
+   <license/>
+   <url><update label="Update Site" url="http://server/"/></url>
+   <requires/>
+
+   <plugin
+         id="plugin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

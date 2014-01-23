@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Product name" uid="product" id="plugin" application="org.eclipse.ui.ide.workbench" version="0.0.1.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/path/to/png"/>
+      <text>Product about</text>
+   </aboutInfo>
+
+   <configIni use="default"></configIni>
+
+   <launcherArgs/>
+
+   <windowImages i16="/16x16.png" i32="/32x32.png" i48="/48x48.png" i64="/64x64.png" i128="/128x128.png"/>
+
+   <splash
+      location="plugin"
+      startupProgressRect="5,465,500,25"
+      startupMessageRect="7,490,500,25"
+      startupForegroundColor="1C0F3C" />
+   <launcher name="Product">
+      <linux icon="images/48x48.xpm"/>
+      <macosx icon="images/product.icns"/>
+      <solaris/>
+      <win useIco="true">
+         <ico path="images/product.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm/>
+
+   <license>
+        <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        <text>Eclipse Public License - v 1.0</text>
+   </license>
+
+   <plugins/>
+
+   <features>
+      <feature id="org.eclipse.equinox.sdk"/>
+      <feature id="feature"/>
+   </features>
+
+</product>
